@@ -1688,3 +1688,11 @@ img {
   /*  vertical-align: middle; */
    border-style: none; /* Remove the border on images inside links in IE 10-.*/
  }
+
+ .whatsapp {
+  position: fixed;
+  top: 86%;
+  left: 4%;
+  padding: 10px;
+  z-index: 10;
+}
