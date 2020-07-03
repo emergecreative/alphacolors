@@ -1,0 +1,12 @@
+
+
+Options + FollowSymLinks
+ReiteEngine on
+RewriteCond %{HTTP_HOST}^seusite.com.br[NC]
+RewriteRule ^(.*)$ https://www.seusite.com.br/$1 [L,R=301]
+
+RewriteCond %{HTTP_HOST}!^\.[NC]
+RewriteRule ^(.+[^/])/$ https://%(HTTP_HOST)/$1 [R=301,L]
+
+RewriteCond %{THE_REQUEST}^.*/index.html
+RewriteRule ^(.*)$/[R=301,L]
