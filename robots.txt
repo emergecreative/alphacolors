@@ -1,6 +1,9 @@
-User-agent: Googlebot
+User-agent: *
 
-Allow: /
+Allow:/
+Allow:/servicos-pintura/
 
-
-Disallow:/contato
+Disallow:/.git/
+Disallow:/assets/
+Disallow:/forms/
+Disallow:/processa.php
