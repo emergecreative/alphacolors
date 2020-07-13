@@ -1,0 +1,27 @@
+<? xml version="1.0" encoding="utf-8"?>
+
+<configuration>
+   <system.webServer>
+      <staticContent>
+         <mimeMap fileExtension=".webp" mimeType="image/webp"/>
+      </staticContent>
+   </system.webServer>
+
+   <location path="index.html">
+      <system.webServer>
+         <httpRedirect enabled="true"
+         destination="http://www.alphacolorspinturas.com.br/"
+         httpResponseStatus="Permanent" />
+      </system.webServer>
+   </location>
+
+   <location path="http://">
+      <system.webServer>
+         <httpRedirect enabled="true"
+         destination="http://www.alphacolorspinturas.com.br/"
+         httpResponseStatus="Permanent" />
+      </system.webServer>
+   </location>
+
+</configuration>
+
