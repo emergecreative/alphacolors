@@ -548,6 +548,15 @@ strong{
   text-shadow: -1px 0 2px #2f4d5a;
 }
 
+#servicos p {
+  color: #fff;
+  margin-bottom: 50px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: -1px 0 2px #2f4d5a;
+}
+
 #servicos .btn-get-started {
   font-size: 36px;
   display: inline-block;
