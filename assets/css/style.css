@@ -1711,6 +1711,7 @@ img {
   z-index: 10;
 }
 
-.stronga {
-  
+.justify-text {
+  justify-content: center;
+  text-align: center;
 }
