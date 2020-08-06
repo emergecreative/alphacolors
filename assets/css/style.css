@@ -1715,3 +1715,7 @@ img {
   justify-content: center;
   text-align: center;
 }
+
+.flag-size span{
+  font-size: 60px !important;
+}
